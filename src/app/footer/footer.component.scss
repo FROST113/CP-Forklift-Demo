@@ -1,0 +1,123 @@
+
+
+
+footer.siteFooter {
+  text-align: center;
+  background-color: #8E3237;
+  color: #fff;
+  border-top: solid #D7D5DE;
+}
+
+.footerBackground {
+  padding: 2% 0%;
+}
+
+.footerBuffer {
+  background-color: black;
+  height: 45px;
+}
+
+ul.footerNav {
+  list-style-type: none;
+  display: contents;
+    align-items: center;
+}
+
+li.footerNavItem {
+
+  padding: 1% 5%
+}
+
+li.footerIcon {
+  display: inline-flex;
+  font-size: 250%;
+  padding: 0% 5%;
+}
+
+h3.socialTitle {
+  margin-bottom: 35px;
+}
+
+.copy-text {
+  margin-top: 3%;
+}
+
+img.footerLogo {
+  width: 10%;
+}
+
+
+h1.footerSlogan {
+  margin-bottom: 50px;
+}
+
+
+i.fa-brands.fa-square-facebook {
+  color: #3B5998;
+  font-size: 80px;
+}
+
+i.fa-brands.fa-square-instagram {
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 80px;
+}
+
+i.fa-brands.fa-square-twitter {
+  color: #1DA1F2;
+  font-size: 80px;
+}
+
+
+@media (min-width: 360px) {
+  h1.footerSlogan {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+img.footerLogo {
+  width: 40%;
+  margin-bottom: 10%;
+  border: solid #212529;
+}
+
+ul.footerNav {
+  list-style-type: none;
+  display: contents;
+  align-items: center;
+  font-size: 20px;
+  /* margin-bottom: 15%; */
+}
+
+h3.socialTitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+}
+
+@media (min-width: 768px) {
+
+  img.footerLogo {
+    width: 25%;
+    margin-bottom: 5%;
+    border: solid #212529;
+}
+
+}
+
+@media (min-width: 1280px) {
+
+  img.footerLogo {
+    width: 30%;
+    margin-bottom: 2%;
+    border: solid #212529;
+  }
+}
+
+

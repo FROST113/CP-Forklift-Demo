@@ -1,0 +1,226 @@
+<div class="intoBanner">
+  <img style="width: 100%;" class="homeBanner" src="../../assets/images/offerImg/CacheImage.png" alt="Intro Banner">
+</div>
+
+
+<div class="container onOfferWrapper">
+  <h3 class="subText">Find The Product Your Looking For</h3>
+
+
+  <div class="container text-center productCards">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_Diesel.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DieselModal" class="btn btn-primary viewBtn">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_LPGPetrol.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a routerLink="/lpgPetrol"  class="btn btn-primary viewBtn">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_Electric.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#ElectricModal" class="btn btn-primary viewBtn">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_Heavy Duty.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a routerLink="/heavyDuty" class="btn btn-primary viewBtn">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product Modals -->
+
+<div class="modal fade" id="DieselModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">20/25/30/35D-7SA</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col-sm-12 col-md-6">
+              <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_Diesel.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <h3 class="subText">Description</h3>
+              <h3 class="subText">20/25/30/35D-7SA</h3>
+              <ul class="desText">
+                <li>Spacious operating room</li>
+                <li>Operator Presence Sensing System (OPSS) (OPT)</li>
+                <li>Advanced monitor</li>
+                <li>Load weight indicator (OPT)</li>
+                <li>Front & Rear LED Lamp</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="specDiv">
+        <h3 class="subText">Specifications</h3>
+        <table class="specTable">
+          <tr class="tableHeader">
+            <th>Model</th>
+            <th>Engine Model</th>
+            <th>Engine Power kW/rpm</th>
+            <th>Load Capacity KG</th>
+            <th>Load Center mm</th>
+            <th>Load Height mm</th>
+            <th>Turning Radius</th>
+            <th>Travel Speed (unloaded) Km/h</th>
+          </tr>
+          <tr class="tableEven">
+            <th>20D-75A</th>
+            <th>Mitsubishi /S45-455</th>
+            <th>35.3 / 2.250</th>
+            <th>2000</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>2330</th>
+            <th>20</th>
+          </tr>
+          <tr class="tableOdd">
+            <th>25D-7SA</th>
+            <th>Mitsubishi /S45-455</th>
+            <th>35.3 / 2.250</th>
+            <th>2500</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>2330</th>
+            <th>20</th>
+          </tr>
+          <tr class="tableEven">
+            <th>30D-7SA</th>
+            <th>Mitsubishi /S45-455</th>
+            <th>35.3 / 2.250</th>
+            <th>3000</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>2450</th>
+            <th>19</th>
+          </tr>
+          <tr class="tableOdd">
+            <th>35D-7SA</th>
+            <th>Mitsubishi /S45-455</th>
+            <th>35.3 / 2.250</th>
+            <th>3500</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>2510</th>
+            <th>18</th>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button (click)="openPdf()" type="button" class="btn btn-primary catBtn">Download Catalog</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- electric -->
+
+<div class="modal fade" id="ElectricModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">25/30/35B-7A</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col-sm-12 col-md-6">
+              <img src="../../../assets/images/offerImg/newForklifts/cached_1920x0_Electric.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <h3 class="subText">Description</h3>
+              <h3 class="subText">25/30/35B-7A</h3>
+              <ul class="desText">
+                <li>Low center of gravity (deep drop battery) provides enhanced forklift stability</li>
+                <li>Full hydraulic steering system</li>
+                <li>TCO Li-Ion battery (OPT)</li>
+                <li>ZAPI AC Controller</li>
+                <li>Operator Presence Sensing System(OPSS) (OPT)</li>
+                <li>Toggle type parking brake lever</li>
+                <li>Pump and traction motor are accessible without battery removal</li>
+                <li>Easy to access controller</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="specDiv">
+        <h3 class="subText">Specifications</h3>
+        <table class="specTable">
+          <tr class="tableHeader">
+            <th class="tableHeaderTH">Model</th>
+            <th class="tableHeaderTH">Battery voltage V</th>
+            <th class="tableHeaderTH">Battery capacity Ah</th>
+            <th class="tableHeaderTH">Load Capacity KG</th>
+            <th class="tableHeaderTH">Load Center mm</th>
+            <th class="tableHeaderTH">Load Height mm</th>
+            <th class="tableHeaderTH">Turning Radius</th>
+            <th class="tableHeaderTH">Travel Speed (unloaded) Km/h</th>
+          </tr>
+          <tr class="tableEven">
+            <th>25B-7A</th>
+            <th>48</th>
+            <th>600</th>
+            <th>2500</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>500</th>
+            <th>16</th>
+          </tr>
+          <tr class="tableOdd">
+            <th>30B-7A</th>
+            <th>80</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>2349</th>
+            <th>16</th>
+          </tr>
+          <tr class="tableEven">
+            <th>35B-7A</th>
+            <th>80</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>500</th>
+            <th>3000</th>
+            <th>1405</th>
+            <th>16</th>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button (click)="openPdf()" type="button" class="btn btn-primary catBtn">Download Catalog</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
