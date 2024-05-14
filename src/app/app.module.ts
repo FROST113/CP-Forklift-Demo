@@ -18,6 +18,8 @@ import { WarehousingEquipmentComponent } from './on-offer/warehousing-equipment/
 import { LightgalleryModule } from 'lightgallery/angular';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FormsModule } from '@angular/forms';
+import { DieselComponent } from './on-offer/new-forklifts/diesel/diesel.component';
+import { ElectricComponent } from './on-offer/new-forklifts/electric/electric.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { FormsModule } from '@angular/forms';
     RefurbishedComponent,
     FmsComponent,
     GalleryComponentCP,
-    ContactUsComponent
+    ContactUsComponent,
+    DieselComponent,
+    ElectricComponent
   ],
   imports: [
     BrowserModule,

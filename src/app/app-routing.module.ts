@@ -11,6 +11,8 @@ import { NewForkliftsComponent } from './on-offer/new-forklifts/new-forklifts.co
 import { OnOfferComponent } from './on-offer/on-offer.component';
 import { RefurbishedComponent } from './on-offer/refurbished/refurbished.component';
 import { WarehousingEquipmentComponent } from './on-offer/warehousing-equipment/warehousing-equipment.component';
+import { DieselComponent } from './on-offer/new-forklifts/diesel/diesel.component';
+import { ElectricComponent } from './on-offer/new-forklifts/electric/electric.component';
 
 const routes: Routes = [
   { path:  'home', component:  HomePageComponent},
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path:  'offer', component:  OnOfferComponent},
   { path:  'newForklifts', component:  NewForkliftsComponent},
   { path:  'lpgPetrol', component:  LpgPetrolComponent},
+  { path:  'diesel', component:  DieselComponent},
+  { path:  'electric', component:  ElectricComponent},
   { path:  'heavyDuty', component:  HeavyDutyComponent},
   { path:  'Warehousing', component:  WarehousingEquipmentComponent},
   { path:  'refurbished', component:  RefurbishedComponent},
